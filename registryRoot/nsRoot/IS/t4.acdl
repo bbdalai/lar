@@ -2,7 +2,7 @@
   <implementation.generic type="ispackage" />
   <buildInfo name="BuildVersion" value="xx.xx.xx.xx" />
   <buildInfo name="BuildTimestamp" value="2018-06-18T17:17:57" />
-  <buildInfo name="MinimumTargetRuntimeVersion" value="10.3.0.0" />
+  <buildInfo name="MinimumTargetRuntimeVersion" value="10.3.0.1" />
   <property name="activatePkgOnInstall" displayName="Activate Package On Install">
     <value>true</value>
   </property>

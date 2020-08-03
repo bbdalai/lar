@@ -3,6 +3,21 @@
     <implementation.generic type="UniversalMessaging"/>
     <buildInfo name="build.timestamp"/>
     <buildInfo name="build.version" value="10.7.0.0000-0166"/>
+    <asset name="Channel:aa" isDeployable="true">
+        <implementation.generic type="Channel"/>
+    </asset>
+    <asset name="Channel:topic1" isDeployable="true">
+        <implementation.generic type="Channel"/>
+    </asset>
+    <asset name="Channel:topic2" isDeployable="true">
+        <implementation.generic type="Channel"/>
+    </asset>
+    <asset name="UMQueue:bb" isDeployable="true">
+        <implementation.generic type="UMQueue"/>
+    </asset>
+    <asset name="UMQueue:queue1" isDeployable="true">
+        <implementation.generic type="UMQueue"/>
+    </asset>
     <asset name="ConnectionFactory:cnf1" isDeployable="true">
         <implementation.generic type="ConnectionFactory"/>
     </asset>

@@ -21,13 +21,7 @@
     <asset name="ConnectionFactory:cnf1" isDeployable="true">
         <implementation.generic type="ConnectionFactory"/>
     </asset>
-    <asset name="ConnectionFactory:cnf2" isDeployable="true">
-        <implementation.generic type="ConnectionFactory"/>
-    </asset>
     <asset name="JNDITopic:topic1" isDeployable="true">
-        <implementation.generic type="JNDITopic"/>
-    </asset>
-    <asset name="JNDITopic:topic2" isDeployable="true">
         <implementation.generic type="JNDITopic"/>
     </asset>
     <asset name="JNDIQueue:queue1" isDeployable="true">

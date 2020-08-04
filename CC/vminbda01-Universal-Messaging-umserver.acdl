@@ -10,16 +10,16 @@
         <value>FALSE</value>
     </property>
     <property name="universal-messaging-umserver.um-jndi-cf-cnf2.url" many="false" isSecure="false" displayName="universal-messaging-umserver.um-jndi-cf-cnf2.url">
-        <value>nsp://localhost:9000</value>
+        <value>NSP://UNUSED:0</value>
     </property>
     <property name="universal-messaging-umserver.um-jndi-dest-queue1.autocreatedest" many="false" isSecure="false" displayName="universal-messaging-umserver.um-jndi-dest-queue1.autocreatedest">
-        <value>'false'</value>
+        <value>true</value>
     </property>
     <property name="universal-messaging-umserver.um-jndi-dest-topic2.autocreatedest" many="false" isSecure="false" displayName="universal-messaging-umserver.um-jndi-dest-topic2.autocreatedest">
-        <value>'false'</value>
+        <value>true</value>
     </property>
     <property name="universal-messaging-umserver.um-jndi-cf-cnf1.url" many="false" isSecure="false" displayName="universal-messaging-umserver.um-jndi-cf-cnf1.url">
-        <value>nsp://vminbda01:9000</value>
+        <value>NSP://UNUSED:0</value>
     </property>
     <property name="universal-messaging-umserver.common-local-users-administrator.password" data_type="string" many="false" isSecure="true" displayName="Local User Password">
         <value>''</value>

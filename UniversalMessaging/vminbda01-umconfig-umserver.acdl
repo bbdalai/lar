@@ -6,8 +6,8 @@
     <asset name="Channel:topic1" isDeployable="true">
         <implementation.generic type="Channel"/>
     </asset>
-    <asset name="Channel:topic2" isDeployable="true">
-        <implementation.generic type="Channel"/>
+    <asset name="UMQueue:queue1" isDeployable="true">
+        <implementation.generic type="UMQueue"/>
     </asset>
     <asset name="ConnectionFactory:cnf1" isDeployable="true">
         <implementation.generic type="ConnectionFactory"/>

@@ -114,14 +114,15 @@
                 <ChannelGroupACLEntry listACLEntries="false" modifyACLEntries="false" fullControl="false" getLastEID="true" purgeEvents="false" subscribe="true" publish="false" useNamedSubcription="true" groupname="Everyone"/>
             </ChannelPermissionSet>
         </ChannelEntry>
-        <ChannelEntry>
-            <ChannelAttributesEntry name="topic2" TTL="0" capacity="0" EID="0" clusterWide="false" jmsEngine="true" mergeEngine="false" type="MIXED_TYPE"/>
-            <StorePropertiesEntry HonorCapacityWhenFull="true" SyncOnEachWrite="false" SyncMaxBatchSize="0" SyncBatchTime="0" PerformAutomaticMaintenance="true" EnableCaching="true" CacheOnReload="true" EnableReadBuffering="true" ReadBufferSize="10240" Priority="4" EnableMulticast="false" MultiFileEventsPerSpindle="50000" StampDictionary="0"/>
-            <ChannelPermissionSet>
-                <ChannelACLEntry listACLEntries="true" modifyACLEntries="true" fullControl="true" getLastEID="true" purgeEvents="true" subscribe="true" publish="true" useNamedSubcription="false" host="vminbda01.eur.ad.sag" name="administrator"/>
-                <ChannelGroupACLEntry listACLEntries="false" modifyACLEntries="false" fullControl="false" getLastEID="true" purgeEvents="false" subscribe="true" publish="false" useNamedSubcription="true" groupname="Everyone"/>
-            </ChannelPermissionSet>
-        </ChannelEntry>
     </ChannelSet>
-    <QueueSet/>
+    <QueueSet>
+        <QueueEntry>
+            <ChannelAttributesEntry name="queue1" TTL="0" capacity="0" EID="0" clusterWide="false" jmsEngine="false" mergeEngine="false" type="MIXED_TYPE"/>
+            <StorePropertiesEntry HonorCapacityWhenFull="true" SyncOnEachWrite="false" SyncMaxBatchSize="0" SyncBatchTime="0" PerformAutomaticMaintenance="true" EnableCaching="true" CacheOnReload="true" EnableReadBuffering="true" ReadBufferSize="10240" Priority="4" EnableMulticast="false" MultiFileEventsPerSpindle="50000" StampDictionary="0"/>
+            <QueuePermissionSet>
+                <QueueACLEntry listACLEntries="true" modifyACLEntries="true" fullControl="true" purge="true" peek="true" push="true" pop="true" host="vminbda01.eur.ad.sag" name="administrator"/>
+                <QueueGroupACLEntry listACLEntries="false" modifyACLEntries="false" fullControl="false" purge="false" peek="true" push="false" pop="false" groupname="Everyone"/>
+            </QueuePermissionSet>
+        </QueueEntry>
+    </QueueSet>
 </NirvanaRealm>

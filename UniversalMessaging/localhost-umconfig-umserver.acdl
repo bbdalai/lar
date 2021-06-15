@@ -9,6 +9,9 @@
     <asset name="Channel:td1" isDeployable="true">
         <implementation.generic type="Channel"/>
     </asset>
+    <asset name="Channel:td2" isDeployable="true">
+        <implementation.generic type="Channel"/>
+    </asset>
     <asset name="UMQueue:q1" isDeployable="true">
         <implementation.generic type="UMQueue"/>
     </asset>
@@ -19,6 +22,9 @@
         <implementation.generic type="JNDITopic"/>
     </asset>
     <asset name="JNDITopic:td1" isDeployable="true">
+        <implementation.generic type="JNDITopic"/>
+    </asset>
+    <asset name="JNDITopic:td2" isDeployable="true">
         <implementation.generic type="JNDITopic"/>
     </asset>
     <asset name="JNDIQueue:q1" isDeployable="true">
